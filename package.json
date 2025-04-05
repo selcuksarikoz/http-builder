@@ -1,0 +1,53 @@
+{
+  "name": "@kozmonot/http-builder",
+  "description": "A simple and lightweight Publish/Subscribe (PubSub) utility for decoupled communication. Ideal for managing events between modules without direct dependencies.",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0",
+    "vite-plugin-dts": "^4.5.3"
+  },
+  "peerDependencies": {
+    "axios": "^1.8.4"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selcuksarikoz/http-builder.git"
+  },
+  "keywords": [
+    "http",
+    "request",
+    "axios",
+    "builder",
+    "fluent",
+    "api",
+    "typescript",
+    "javascript",
+    "client",
+    "frontend",
+    "utility",
+    "type-safe",
+    "promises",
+    "http-client"
+  ],
+  "author": "Selcuk Sarikoz <benimpostahesabim@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/selcuksarikoz/http-builder/issues"
+  },
+  "homepage": "https://github.com/selcuksarikoz/http-builder#readme"
+}
